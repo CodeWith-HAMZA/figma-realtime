@@ -1,0 +1,1 @@
+* in prisma push means -> to migrate/sync the schemas in actual db

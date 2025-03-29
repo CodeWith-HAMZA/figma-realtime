@@ -1,0 +1,5 @@
+export const LIVE_BLOCKS_PUBLIC_KEY =
+  "pk_dev_8diymlWBtA5IYS8tMoYFJENW7FH2nCuGq-xd2mkBLGMyUD3UJF7jZCfJBsJ6STcX";
+
+export const LIVE_BLOCKS_SECRET_KEY =
+  "sk_dev_HJlINfIMPn6pT6LMscu_UWTrt9yiSBN8KE6rkn04sfqTNjBbQQwGat9HYu1vpmLZ";

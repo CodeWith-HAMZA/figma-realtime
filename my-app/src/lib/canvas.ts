@@ -1,4 +1,4 @@
-import { fabric } from "fabric";
+import * as fabric  from "fabric";
 import { v4 as uuid4 } from "uuid";
 
 import {
@@ -26,7 +26,7 @@ export const initializeFabric = ({
   const canvasElement = document.getElementById("canvas");
 
   // create fabric canvas
-  const canvas = new fabric.Canvas(canvasRef.current, {
+  const canvas = new fabric.Canvas(canvasRef.current!, {
     width: canvasElement?.clientWidth,
     height: canvasElement?.clientHeight,
   });

@@ -11,7 +11,7 @@
   "dependencies": {
     "@liveblocks/client": "^2.20.0",
     "@liveblocks/react": "^2.20.0",
-    "fabric": "^6.6.1",
+    "fabric": "^6.7.0",
     "next": "^15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

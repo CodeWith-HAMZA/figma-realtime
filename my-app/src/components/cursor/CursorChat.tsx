@@ -14,7 +14,7 @@ function CursorChat({ myPresence, setCursorState, setMyPresence, cursorState }: 
             <div className="absolute top-0   left-0 w-full h-full bg-blue-500 px-4 py-2 rounded-md" >
             {/* previous message */}
             {
-                cursorState.previousMessage && (
+                cursorState?.previousMessage && (
                     <div>
                         <p>{cursorState.previousMessage}</p>
                     </div>

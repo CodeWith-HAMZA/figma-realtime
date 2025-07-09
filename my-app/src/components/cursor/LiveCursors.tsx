@@ -5,7 +5,7 @@ import { COLORS } from "@/constants";
 
 // Live Cursors empty component make
 function LiveCursors({ others }:  LiveCursorProps) {
-    console.log(others);
+    // console.log(others);
     return (
         <>
             {others.map((other) => (
